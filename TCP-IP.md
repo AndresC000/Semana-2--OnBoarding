@@ -1,8 +1,8 @@
-##TCP/IP##
+# TCP/IP
 
 Divide la información en paquetes, las cuales se envían de manera independiente las cuales se reconstruyen en el destino para formas el mensaje completo, esto permite que las comunicaciones sean fiables y eficientes, esto porque cad paquete llegase a tomar rutas diferentes, este protocolo **TCP**, asegura su llegada de forma ordenada y sin errores, además esta incluye modos de seguridad y autenticación.
 
-##CAPAS DE MODELO TCP/IP
+## CAPAS DE MODELO TCP/IP
 
 -**Capa de acceso al medio(enlace)**
 Traduce la transmisión dentro de la red local y traduce las Ip´s a MAC
