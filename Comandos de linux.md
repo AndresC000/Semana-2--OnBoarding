@@ -149,7 +149,7 @@ echo "cool message"
 Su uso principal es imprimir las variables de entorno dentro de esos mensajes
 
 	-echo "Hey $USER"
-	# Hey kinsta
+	-Hey kinsta
 
 21.- **cat**
 
@@ -187,9 +187,9 @@ Permite el cambo de contraseñas de las cuentas de los usuarios, como primer pun
 28.- **which**
 Muestra la ruta completa de los comandos del Shell, si no puede reconocer e comando dado, dará error
 	- which Python
-	# /usr/bin/python
+		- /usr/bin/python
 	- wich brave
-	# /usr/bin/brave
+		- /usr/bin/brave
 
 29.- **shred** 
 Este comando anula el contenido de un archivo permanentemente (el archivo se vuelve extremadamente difícil de recuperar)
@@ -249,8 +249,7 @@ unix name- imprime la información del sistema operativo, lo cual resulta útil 
 	-uname
 
 Linux
-
-	-uname -a
+	- uname -a
 
 -Linux kinstamanjaro 5.4.138-1-MANJARO #1 SMP PREEMPT Thu Aug 5 12:15:21 UTC 2021 x86_64 GNU/Linux
  
@@ -264,12 +263,12 @@ Herramienta CLI, que nos muestra información sobre el sistema.
 
 39.- **find** 
 El comando find nos busca archivos en una jerarquía de directorios, basándose en una expresión regex.
-	-find [flags] [path] -name [expression]
+	- find [flags] [path] -name [expression]
 
 40- **wget**
 world wide web get, es una utilidad para recuperar contenidos de interne
 
-	wget https://raw.githubusercontent.com/DaniDiazTech/Object-Oriented-Programming-in-Python/main/object_oriented_programming/cookies.py
+	- wget https://raw.githubusercontent.com/DaniDiazTech/Object-Oriented-Programming-in-Python/main/object_oriented_programming/cookies.py
 
 ##COMANDOS PRINCIPALES PARA PRINCIPANTES
 -find = "buscar dentro de mi PC/VM".
