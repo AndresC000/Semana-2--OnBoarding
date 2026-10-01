@@ -248,11 +248,11 @@ Si solo necesitas el número de palabras, utiliza el indicador -w:
 unix name- imprime la información del sistema operativo, lo cual resulta útil cuando se conoce la versión actúa de Linux; Aun que la mayoría de veces, se utiliza la flag (-a = all).
 	-uname
 
-# Linux
+Linux
 
 	-uname -a
 
-# Linux kinstamanjaro 5.4.138-1-MANJARO #1 SMP PREEMPT Thu Aug 5 12:15:21 UTC 2021 x86_64 GNU/Linux
+-Linux kinstamanjaro 5.4.138-1-MANJARO #1 SMP PREEMPT Thu Aug 5 12:15:21 UTC 2021 x86_64 GNU/Linux
  
 38.- **neofetch**
 Herramienta CLI, que nos muestra información sobre el sistema.
@@ -265,13 +265,10 @@ Herramienta CLI, que nos muestra información sobre el sistema.
 39.- **find** 
 El comando find nos busca archivos en una jerarquía de directorios, basándose en una expresión regex.
 	-find [flags] [path] -name [expression]
-Busca un archivo llamado (long.txt) en el directorio actual
-	-find ./ -name "long.txt" # ./long.txt
-Para buscar archivos que terminen con una extensión .py (Python).
-	find ./ -type f -name "*.py" ./get_keys.py ./github_automation.py ./binarysearch.py 
 
 40- **wget**
 world wide web get, es una utilidad para recuperar contenidos de interne
+
 	wget https://raw.githubusercontent.com/DaniDiazTech/Object-Oriented-Programming-in-Python/main/object_oriented_programming/cookies.py
 
 ##COMANDOS PRINCIPALES PARA PRINCIPANTES
