@@ -4,7 +4,7 @@ Son los directorios telefónicos de internet, donde las personas pueden acceder 
 
 Cada dispositivo conectado a internet tiene una dirección IP única la cual otros equipos pueden usar para encontrarlos, los servers DNS eliminan la necesidad de memorizar las direcciones IP, cómo en IPv4-IPv6
 
-##Servidores DNS implicados en la carga de un sitio web:
+## Servidores DNS implicados en la carga de un sitio web:
 
 -**Recursor de DNS**
 Servidor diseñado para recibir consultas desde equipos cliente mediante aplicaciones como navegadores web, el recursor será el responsable de realizar las solicitudes adicionales para satisfacer la consulta de DNS del cliente.
