@@ -143,12 +143,10 @@ Independientes de la distribución que se utilicen gestores de paquetes para ins
 Muestra el texto definido en la terminal 
 
 echo "cool message"
- -cool message
-
+-cool message
 Su uso principal es imprimir las variables de entorno dentro de esos mensajes
-
-	-echo "Hey $USER"
-	-Hey kinsta
+-echo "Hey $USER"
+-Hey kinsta
 
 21.- **cat**
 
@@ -162,9 +160,8 @@ Puedes echar un vistazo a los procesos que tu sesión de Shell actual este ejecu
 23.- **kill**
 Señal de TERM o kill a un proceso que lo termina.
 Puedes matar procesos introduciendo el PID (PROCESS ID) o nombre binaro de programa
-	- kill 533494
-
-	- kill Firefox
+-kill 533494
+-kill Firefox
 
 
 24.- **ping**
@@ -214,23 +211,23 @@ También puede contar el numero de veces que se repite el patron utilizando (-c)
 
 34.- **whoami**
 Comando que muestra el nombre de usuario actualmente en uso.
-	-whoami
+-whoami
 Se obtendría el mismo resultado usando echo.
-	-echo $USER
+-echo $USER
 
 35.- **whatis**
 Imprime una descripción de una sola linea de cualquier otro comando.
 	-whatis python
 
-# python (1) - an interpreted, interactive, object-oriented programming language
+-python (1) - an interpreted, interactive, object-oriented programming language
 
-	-whatis whatis
+-whatis whatis
 
-# whatis (1) - display one-line manual page descriptions
+-whatis (1) - display one-line manual page descriptions
 
 36.- **wc**
 (Word count)-recuento de palabras, devuelve el numero de palabras de un archivo de texto.
-	-wc long.txt
+-wc long.txt
 
 # 37 207 1000 long.txt
 
@@ -239,15 +236,15 @@ Imprime una descripción de una sola linea de cualquier otro comando.
 -1000 bytes de tamaño
 -El nombre del archivo (long.txt)
 Si solo necesitas el número de palabras, utiliza el indicador -w:
-	- wc -w long.txt
+- wc -w long.txt
 
 207 long.txt
 
 37.- **uname** 
 unix name- imprime la información del sistema operativo, lo cual resulta útil cuando se conoce la versión actúa de Linux; Aun que la mayoría de veces, se utiliza la flag (-a = all).
-	-uname
+-uname
 Linux
-	- uname -a
+- uname -a
 - Linux kinstamanjaro 5.4.138-1-MANJARO #1 SMP PREEMPT Thu Aug 5 12:15:21 UTC 2021 x86_64 GNU/Linux
  
 38.- **neofetch**
@@ -260,12 +257,12 @@ Herramienta CLI, que nos muestra información sobre el sistema.
 
 39.- **find** 
 El comando find nos busca archivos en una jerarquía de directorios, basándose en una expresión regex.
-	- find [flags] [path] -name [expression]
+find [flags] [path] -name [expression]
 
 40- **wget**
 world wide web get, es una utilidad para recuperar contenidos de interne
 
-	- wget https://raw.githubusercontent.com/DaniDiazTech/Object-Oriented-Programming-in-Python/main/object_oriented_programming/cookies.py
+-wget https://raw.githubusercontent.com/DaniDiazTech/Object-Oriented-Programming-in-Python/main/object_oriented_programming/cookies.py
 
 ##COMANDOS PRINCIPALES PARA PRINCIPANTES
 -find = "buscar dentro de mi PC/VM".
