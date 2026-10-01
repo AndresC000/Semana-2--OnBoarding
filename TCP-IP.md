@@ -23,11 +23,11 @@ La cual nos permite la comunicación entre programas y usuarios.
 
 TCP/IP es necesario para la interoperabilidad entre sistemas heterogéneos, la cual nos permite que los Host se comuniquen sin conflictos, asegurando su función confiable y segura.
 
-##Diferencia entre el modelo TCP/IP y el Modelo OSI
+## Diferencia entre el modelo TCP/IP y el Modelo OSI
 
 Son dos formas distintas de describir como se comunican los sistemas en red; Mientras que TCP/IP se centra en los protocolos reales y en como funciona internet, OSI es mas teórico y detallado.
 
-##Como configurar TCP/IP en Windows y Linux
+## Como configurar TCP/IP en Windows y Linux
 
 -Windows, la configuración básica de TCP/IP se realiza desde las propiedades del adaptador de la red, desde donde se definen direcciones IP, mascaras, puertas de enlace y servers DNS
 -Linux, Estos parámetros con recurrencia se gestionan mediante archivos de configuración o herramientas especificas de cada distro.
