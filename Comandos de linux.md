@@ -107,7 +107,6 @@ superuser do - permite actuar como superusuario o usuario root, mientras se ejec
 
 Utilizado comúnmente para instalar software o para edición de archivos fuera del escritorio personal del usuario.
 	-sudo apt install gimp
-
 	-sudo cd /root/ 
 
 Pedirá la contraseña de admin antes de ejecutar el comando que se haya escrito después
@@ -247,11 +246,9 @@ Si solo necesitas el número de palabras, utiliza el indicador -w:
 37.- **uname** 
 unix name- imprime la información del sistema operativo, lo cual resulta útil cuando se conoce la versión actúa de Linux; Aun que la mayoría de veces, se utiliza la flag (-a = all).
 	-uname
-
 Linux
 	- uname -a
-
--Linux kinstamanjaro 5.4.138-1-MANJARO #1 SMP PREEMPT Thu Aug 5 12:15:21 UTC 2021 x86_64 GNU/Linux
+- Linux kinstamanjaro 5.4.138-1-MANJARO #1 SMP PREEMPT Thu Aug 5 12:15:21 UTC 2021 x86_64 GNU/Linux
  
 38.- **neofetch**
 Herramienta CLI, que nos muestra información sobre el sistema.
